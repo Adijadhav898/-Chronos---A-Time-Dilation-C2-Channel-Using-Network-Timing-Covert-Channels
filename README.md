@@ -45,9 +45,9 @@ pip install scapy pycryptodome
 
 
 3️⃣ Setup
-Update IP addresses in controller.py and implant.py
-VICTIM_IP → Victim machine IP 
-ATTACKER_IP → Attacker machine IP 
+Update IP addresses in controller.py and implant.py <br>
+VICTIM_IP → Victim machine IP <br>
+ATTACKER_IP → Attacker machine IP <br>
 Run with root/admin privileges (ICMP sniffing requires it).
 
 
@@ -62,9 +62,9 @@ Example:chronos> whoami
 
 📂 Project Structure
 ChronosEcho/
-├── controller.py   # Controller (attacker side) 
-├── implant.py      # Implant (victim side) 
-└── README.md       # Project documentation 
+├── controller.py   # Controller (attacker side) <br>
+├── implant.py      # Implant (victim side) <br>
+└── README.md       # Project documentation <br>
 
 📚 Research Focus 
 
