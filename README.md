@@ -32,14 +32,13 @@ Do not use on systems you do not own or have explicit permission to test.
 
 ---
 
-## 📦 Installation & Usage<br>
+## 📦 Installation & Usage
 
-### 1️⃣ Clone the repository<br>
-```bash
+### 1️⃣ Clone the repository
 git clone https://github.com/Adijadhav898/-Chronos---A-Time-Dilation-C2-Channel-Using-Network-Timing-Covert-Channels.git<br>
 
 
-2️⃣ Dependencies<br>
+2️⃣ Dependencies
 
 Install required Python packages:
 pip install scapy pycryptodome
@@ -52,7 +51,7 @@ ATTACKER_IP → Attacker machine IP
 Run with root/admin privileges (ICMP sniffing requires it).
 
 
-4️⃣ Running<br>
+4️⃣ Running
 On Victim machine (implant):
 python implant.py
 On Attacker machine (controller):
@@ -63,9 +62,9 @@ Example:chronos> whoami
 
 📂 Project Structure
 ChronosEcho/
-├── controller.py   # Controller (attacker side) <br>
-├── implant.py      # Implant (victim side) <br>
-└── README.md       # Project documentation <br>
+├── controller.py   # Controller (attacker side) 
+├── implant.py      # Implant (victim side) 
+└── README.md       # Project documentation 
 
 📚 Research Focus 
 
