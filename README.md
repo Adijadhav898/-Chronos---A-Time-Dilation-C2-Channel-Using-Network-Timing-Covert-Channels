@@ -32,53 +32,76 @@ Do not use on systems you do not own or have explicit permission to test.
 
 ---
 
-## 📦 Installation & Usage
+ 📦 Installation & Usage <br>
 
-### 1️⃣ Clone the repository
-git clone https://github.com/Adijadhav898/-Chronos---A-Time-Dilation-C2-Channel-Using-Network-Timing-Covert-Channels.git<br>
+ 1️⃣ Clone the repository:
+git clone https://github.com/Adijadhav898/-Chronos---A-Time-Dilation-C2-Channel-Using-Network-Timing-Covert-Channels.git
 
 
-2️⃣ Dependencies
 
-Install required Python packages:
+
+
+2️⃣ Dependencies <br>
+
+Install required Python packages: <br>
 pip install scapy pycryptodome
 
 
-3️⃣ Setup
+
+
+
+
+3️⃣ Setup <br>
 Update IP addresses in controller.py and implant.py <br>
 VICTIM_IP → Victim machine IP <br>
 ATTACKER_IP → Attacker machine IP <br>
 Run with root/admin privileges (ICMP sniffing requires it).
 
 
-4️⃣ Running
-On Victim machine (implant):
-python implant.py
-On Attacker machine (controller):
-python controller.py
-Enter commands at the chronos> prompt.
+
+
+
+
+4️⃣ Running<br>
+On Victim machine (implant): <br>
+python implant.py <br>
+On Attacker machine (controller): <br>
+python controller.py <br>
+Enter commands at the chronos> prompt. <br>
 Example:chronos> whoami
 
 
-📂 Project Structure
-ChronosEcho/
+
+
+
+
+📂 Project Structure <br>
+ChronosEcho/ <br>
 ├── controller.py   # Controller (attacker side) <br>
 ├── implant.py      # Implant (victim side) <br>
 └── README.md       # Project documentation <br>
 
-📚 Research Focus 
-
-This project demonstrates:
-Covert timing channels
-Encrypted C2 communications
-ICMP-based evasion techniques
-Practical adversary simulation for Red Team/Blue Team exercises
 
 
-⚠️ Legal Notice
 
-Using this tool against networks, systems, or devices without prior consent is illegal.
-The author takes no responsibility for misuse. Use only in controlled, authorized environments.
+📚 Research Focus <br>
+
+This project demonstrates: <br>
+Covert timing channels <br>
+Encrypted C2 communications <br>
+ICMP-based evasion techniques <br>
+Practical adversary simulation for Red Team/Blue Team exercises<br>
+
+
+
+
+
+⚠️ Legal Notice <br>
+
+Using this tool against networks, systems, or devices without prior consent is illegal. <br>
+The author takes no responsibility for misuse. Use only in controlled, authorized environments. <br>
+
+
 
 
 Developed by [Aditya Jadhav]
